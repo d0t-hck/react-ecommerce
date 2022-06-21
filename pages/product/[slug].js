@@ -40,14 +40,7 @@ const ProductDetails = ({ product, products }) => {
                     <h4>Описание: </h4>
                     <p>{details}</p>
                     <p className='price'>{price} &#x20B8;</p>
-                    <div className='quantity'>
-                        <h3>Количество:</h3>
-                        <p className='quantity-desc'>
-                            <span className='minus' onClick={decQty}><AiOutlineMinus /></span>
-                            <span className='num' onClick=''>{qty}</span>
-                            <span className='plus' onClick={incQty}><AiOutlinePlus /></span>
-                        </p>
-                    </div>
+                    
                     <div className='buttons'>
                         <button type='button' className='add-to-cart' onClick={() => onAdd(product, qty)}>
                             В корзину

@@ -1,11 +1,11 @@
 import React from 'react';
 import { client } from '../lib/client';
-import { Product, Footer } from '../components';
+import { Product } from '../components';
 
 const Home = ({ products }) => (
     <>
       <div className="products-heading">
-        <h2>Best Selling</h2>
+        <h2>Список товаров</h2>
       </div>
 
       <div className="products-container">
